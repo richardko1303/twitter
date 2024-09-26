@@ -55,7 +55,6 @@
         <div class="mt-3">
             @foreach($users as $user)
                 @include('_templates.post')
-                <div class="mt-3"></div>
             @endforeach
         </div>
     </div>

@@ -12,14 +12,14 @@
     <h2>Profile</h2>
     <p>Here is your profile</p>
 
-@foreach($users as $user)
+{{--@foreach($users as $user)
     @if($user['age'] >= 18)
         <p>Pouzivatel {{$user['name']}} ma {{$user['age']}} rokov a moze soferovat</p>
     @endif
     @if($user['age'] < 18)
         <p>Pouzivatel {{$user['name']}} ma {{$user['age']}} rokov a nemoze soferovat</p>
     @endif
-@endforeach
+@endforeach--}}
 
 
 
